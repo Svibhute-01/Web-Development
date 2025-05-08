@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            height: 500px;
+           ;
+            border: 2px solid black;
+            padding: 10px;
+            margin:10px;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+
+        }
+        .nature{
+            height: 200px;
+            width: 340px;
+           
+            margin: 10px;
+ 
+        }
+        .box{
+            color: white;
+            width: 360px;
+            height: 350px;
+            /* border: 2px solid white; */
+            border: 2px solid white;
+            box-shadow: 10px 10px 10px white,20px 15px 5px #41644A;
+            padding: 7px;
+            text-shadow: 5px 5px 5px palevioletred;
+            animation: nature 5s linear 1s infinite none none
+        }
+        @keyframes nature {
+            from{
+                top: 0;
+                left:0;
+            }
+            to{
+                top:0;
+                left: 1360px;
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="box">
+        
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et atque ut perferendis rerum sed, eos, hic earum animi sunt est molestias cumque ex quis odio praesentium neque exercitationem asperiores! Commodi!</p>
+        <img class="nature" src="nature.jpg">
+
+    </div>
+
+    </div>
+</div>
+</body>
+</html>
