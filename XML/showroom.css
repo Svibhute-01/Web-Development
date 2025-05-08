@@ -1,0 +1,43 @@
+showroom{
+display:inline-flex;
+flex-direction: column;
+}
+
+car{
+display:inline-flex;
+flex-direction: column;
+
+border-left: 5px solid green;
+padding:20px;
+background-color: #e7f9e7;
+margin:10px;
+border-radius:10px;
+
+box-shadow: 0 4px 6px green;
+
+}
+salesRecord{
+display:inline-flex;
+flex-direction: column;
+border-left: 5px solid green;
+
+padding:20px;
+background-color: #e7f9e7;
+margin:10px;
+border-radius:10px;
+
+box-shadow: 0 4px 6px green
+}
+customer{
+display:inline-flex;
+flex-direction: column;
+ border-left: 5px solid green;
+padding:20px;
+background-color: #e7f9e7;
+margin:10px;
+border-radius:10px;
+
+box-shadow: 0 4px 6px green
+
+
+}

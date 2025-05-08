@@ -1,0 +1,57 @@
+
+bookstore {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    padding: 20px;
+}
+
+
+book {
+    display: block;
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    clear:right;
+}
+
+
+book title {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+
+book author {
+    font-size: 1.2em;
+    color: #7f8c8d;
+    margin-bottom: 5px;
+}
+
+
+book year, book price {
+    font-size: 1em;
+    color: #95a5a6;
+}
+
+
+book[category="children"] {
+    background-color: #e7f9e7;
+    border-left: 5px solid #2ecc71;
+}
+
+
+book[category="web"] {
+    background-color: #eaf4ff;
+    border-left: 5px solid #3498db;
+}
+
+
+book[cover="paperback"] {
+    background-color: #fff3e6;
+    border-left: 5px solid #f39c12;
+}

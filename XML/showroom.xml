@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/css" href="showroom.css"?>
+<showroom>
+  <car id="1">
+    <make>Toyota</make>
+    <model>Camry</model>
+    <year>2024</year>
+    <price>28000</price>
+    <vin>1234567890ABC</vin>
+    <color>Silver</color>
+    <mileage>10000</mileage>
+    <description>Well-maintained, fuel-efficient sedan.</description>
+  </car>
+  <car id="2">
+    <make>Honda</make>
+    <model>Civic</model>
+    <year>2023</year>
+    <price>25000</price>
+    <vin>ABC1234567890</vin>
+    <color>Blue</color>
+    <mileage>15000</mileage>
+    <description>Sporty hatchback, great gas mileage.</description>
+  </car>
+
+  <customer id="101">
+    <name>John Doe</name>
+    <email>john.doe@example.com</email>
+    <phone>555-123-4567</phone>
+  </customer>
+  <customer id="102">
+    <name>Jane Smith</name>
+    <email>jane.smith@example.com</email>
+    <phone>555-987-6543</phone>
+  </customer>
+
+  <salesRecord id="1">
+    <customer_id>101</customer_id>
+    <car_id>1</car_id>
+    <sales_date>2025-04-15</sales_date>
+    <sales_price>28000</sales_price>
+    <notes>Successful sale, customer satisfied.</notes>
+  </salesRecord>
+  <salesRecord id="2">
+    <customer_id>102</customer_id>
+    <car_id>2</car_id>
+    <sales_date>2025-04-16</sales_date>
+    <sales_price>25000</sales_price>
+    <notes>Customer test drove car and purchased.</notes>
+  </salesRecord>
+</showroom>
